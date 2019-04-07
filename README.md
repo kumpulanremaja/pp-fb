@@ -15,3 +15,7 @@ $ pkg upgrade
 
 $ git clone https://github.com/kumpulanremaja/pp-fb.git
 
+$ cd pp-fb
+
+$ php guard.php
+
