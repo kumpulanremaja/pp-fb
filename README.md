@@ -1,9 +1,4 @@
-FB-Guard Guard Photo Profile Facebook Function:
-
-Facebook profile photos are safe from abuse (because they cannot be saved or saved).
-Facebook profile becomes more convincing (suitable for personal branding on social media).
-Installation
-
+cara penggunaan Perlindungan Foto Facebook dengan Termux dari Kumpulanremaja.com 
 
 $ pkg update
 
@@ -17,5 +12,5 @@ $ git clone https://github.com/kumpulanremaja/pp-fb.git
 
 $ cd pp-fb
 
-$ php guard.php
+$ php fb.php
 
