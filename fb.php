@@ -27,12 +27,12 @@ $blue  ____        _    _   __        _    _____
 $lightcyan | __ )  ___ | |_ | | / / _____ | |_ |  __ $cyan |  _ \ / _ \|  _|| |/ / |  _  ||  _|| |  \ $lightcyan | |_) | (_) | |_ |  _ \ | | | || |_ | |__/ /
 $blue |____/ \___/ \__||_| \_\|_| |_|\___||_____/";
     echo "
-$cyan Author  : kumpulanremaja.com
+$cyan Author  : kumpulan remaja
 $lightcyan Type    : Profil Guard Facebook
 $cyan Github  : http://github.com/kumpulanremaja
 $red Fanspage : https://facebook.com/4kumpulanremaja
 $red Website : https://kumpulanremaja.com
-$purple Version : 10
+$purple Version : 1.0
 $darkgray Date    : $date
 ";
     echo " 
@@ -82,7 +82,7 @@ echo "$darkgray Sumber Script https://kumpulanremaja.com
 
         echo "
 ";
-        input("$blue Email/Phone/UID");
+        input("$blue Email/Nomer HP/Username");
         $iduser = trim(fgets(STDIN));
         input("$blue Password       ");
         $pass = false;
@@ -124,7 +124,7 @@ echo "$darkgray Sumber Script https://kumpulanremaja.com
     $userid = $json['session_cookies'][0]['value'];
     $token = $json['access_token'];
     if (preg_match('/session_key/', $me)) {
-        echo "$red Proccesing Login To Facebook";
+        echo "$red Proses Masuk Kedalam Akun Facebook";
         echo ".";
         sleep(1);
         echo ".";
@@ -139,7 +139,7 @@ echo "$darkgray Sumber Script https://kumpulanremaja.com
     } else {
         echo ("
 ");
-        die("$red [!]Check Your Username / Password 
+        die("$red [!]Silahkan Cek Username / Password 
 ");
         echo "
 ";
@@ -167,7 +167,7 @@ echo "$darkgray Sumber Script https://kumpulanremaja.com
         if ($hajar->data->is_shielded_set->is_shielded) echo "$yellow Login Success[]
 ";
         sleep(2);
-        echo "$green Hello : $blue" . $me->name;
+        echo "$green Hay  : $blue" . $me->name;
         sleep(2.5);
         echo "
 ";
@@ -224,7 +224,7 @@ echo "$darkgray Sumber Script https://kumpulanremaja.com
         curl_close($l);
         echo "
 ";
-        echo "$lightgreen Checking Your Profile Photo";
+        echo "$lightgreen Silahkan Cek Foto Facebook anda";
         echo ".";
         sleep(1);
         echo ".";
@@ -243,8 +243,8 @@ echo "$darkgray Sumber Script https://kumpulanremaja.com
         echo "he
 ";
         sleep(1);
-        echo "$yellow Shielding Your Profile Photo";
-        echo " wait a few second";
+        echo "$yellow Perlindugan Foto facebook anda";
+        echo " Tunggu beberapa detik";
         echo " .";
         sleep(2);
         echo ".";
@@ -278,10 +278,14 @@ echo "$darkgray Sumber Script https://kumpulanremaja.com
         echo "$green []Selesai silahkan cek profil facebook kamu
 ";
         sleep(1.5);
-        echo "$yellow Thanks...
+        echo "$yellow Terima Kasih ...
 ";
+          sleep(1.5);
+        echo "$yellow Support Web Kumpulan remaja , Bantu klik iklan nya Bozz ...
+";
+        
         sleep(1);
-        echo "$blue See You Again : $cyan " . $me->name;
+        echo "$blue Sampai Bertemu Kembali : $cyan " . $me->name;
         sleep(1.5);
         echo "
 ";
