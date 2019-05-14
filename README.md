@@ -1,5 +1,11 @@
 cara penggunaan Perlindungan Foto Facebook dengan Termux dari Kumpulanremaja.com 
 
+
+Github : https://github.com/kumpulanremaja/
+Fanspage :  https://facebook.com/4kumpulanremaja
+web : http://kumpulanremaja.com
+Source Bye kumpulan remaja
+
 $ pkg update
 
 $ pkg install php
