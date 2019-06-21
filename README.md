@@ -1,10 +1,10 @@
-cara penggunaan Perlindungan Foto Facebook dengan Termux dari Kumpulanremaja.com 
+cara penggunaan Perlindungan Foto Facebook dengan Termux dari uchil404 
 
 
-Github : https://github.com/kumpulanremaja/
-Fanspage :  https://facebook.com/4kumpulanremaja
-web : http://kumpulanremaja.com
-Source Bye kumpulan remaja
+Github : https://github.com/uchil4040/
+Fanspage :  https://facebook.com/uchil404
+web : https://richouchil.blogspot.com/?m=1
+Source Bye uchil4040
 
 $ pkg update
 
@@ -14,7 +14,7 @@ $ pkg install git
 
 $ pkg upgrade
 
-$ git clone https://github.com/kumpulanremaja/pp-fb.git
+$ git clone https://github.com/uchil404/pp-fb.git
 
 $ cd pp-fb
 
