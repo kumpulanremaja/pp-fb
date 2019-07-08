@@ -20,3 +20,4 @@ $ cd pp-fb
 
 $ php fb.php
 
+untuk selengkpanya cara aktifkan fitur Profil Guard facebook / perlindungan foto profil facebbok bisa baca tutoria nya selengkapnya di bawah ini https://www.kumpulanremaja.com/2019/04/mengaktifkan-profil-picture-guard-dengan-termux.html
